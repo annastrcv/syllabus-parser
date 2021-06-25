@@ -70,7 +70,7 @@ Section info has the following structure:
 *Forms of evaluation* stores an object where for each key the value could be 0 or 1 (depending on whether this form will be used for evaluation in this section).
 *Hours distribution* strores an object where for each key the value is the number of hours spent.
 
-## Papser
+## Parser
 
 Regular expressions were used for parsing Latex document.
 All functions are stored in `parser.py`.  
