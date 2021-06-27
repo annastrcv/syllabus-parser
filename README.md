@@ -22,7 +22,7 @@ JSON structure for the syllabus is following:
   - Course evaluation
 * Course sections
 
-[*A completed json document on the example of Computer Vision course*](https://github.com/rrufina/syllabus-parser/blob/main/data/ComputerVision.md).
+[*A completed json document on the example of Computer Vision course*](https://docs.google.com/document/d/1bjkWA5q_x4BYuUt5ZArQfn4H4TprZIdqL-ZAc1ur0Rs/edit?usp=sharing).
 
 ### Course info
 
