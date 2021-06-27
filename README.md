@@ -1,8 +1,13 @@
 # Syllabus Parser
 
-The goal of the program is to convert syllabus from Latex to JSON format. 
+The program is able to convert syllabus from Latex to JSON format. 
 
 ## JSON structure
+
+### Background
+
+The structure presented below contains sections that are common to the syllabus and the educational plan (? РПД). A correspondence matrix was constructed for better visualization of intersecting sections (you could find it by [this link](https://docs.google.com/spreadsheets/d/1NrIC6H2qXS8NksnokkIdLbHTqK7KwmHXLzEe7loZxJ8/edit?usp=sharing)). 
+
 JSON structure for the syllabus is following:
 * Course info
   - Course name
@@ -16,6 +21,8 @@ JSON structure for the syllabus is following:
   - Grades range
   - Course evaluation
 * Course sections
+
+[*A completed json document on the example of Computer Vision course*](https://github.com/rrufina/syllabus-parser/blob/main/data/ComputerVision.md).
 
 ### Course info
 
@@ -77,3 +84,4 @@ All functions are stored in `parser.py`.
 
 To generate JSON versions for the syllabi you should define a path where the Latex documents are stored in `syllabus_path` in `main.py`.
 JSON documents will be created in the directory specified in `json_path` in `main.py`.
+
