@@ -1,7 +1,11 @@
 {
+
 &nbsp;&nbsp;&nbsp;&nbsp;**"Course info"**: { 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Course name": "Computer Vision", 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Key concepts": ["Computer vision techniques", "Classical and deep learning models"], 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Purpose": "This course provides an intensive treatment of a cross-section of the key elements of computer vision, with an emphasis on implementing them in modern programming environments, and using them to solve real-world problems. The course will begin with the fundamentals of image processing and image filtering, but will quickly build to cover more advanced topics, including image segmentation, object detection and recognition, face detection, content-based image retrieval, artificial neural networks, convolutional neural networks, generative adversarial networks and much more.  A key focus of the course is on providing students with not only theory but also hands-on practice of building their computer vision applications."
 &nbsp;&nbsp;&nbsp;&nbsp;}, 
 &nbsp;&nbsp;&nbsp;&nbsp;**"Blooms taxonomy"**: {
