@@ -12,12 +12,20 @@ def find_course_number(data):
   return match[0]
 
 def find_key_concepts(data):
-  regex = re.compile('{Key\s+concepts\s+of\s+the\s+class}(.+?)\\\sub', re.DOTALL)
+  regex = re.compile('{Key\s+concepts\s+of\s+the\s+class}(.+?)\\\sub', re.DOTALL) #dotall is to make the dot character match any character including new line
   match = regex.findall(data)
   return get_items_list(match[0])
 
 def find_purpose(data):
   regex = re.compile('{What\s+is\s+the\s+purpose\s+of\s+this\s+course(.+?)\\\sub', re.DOTALL)
+  match = regex.findall(data)
+  splitted = match[0].split('\n')
+  text = " ".join(splitted[1:-1]).strip()
+  return text
+
+#find purpose from the course description
+def find_purpose_cd(data):
+  regex = re.compile('Course\s+description(.+?)\\\sub', re.DOTALL)
   match = regex.findall(data)
   splitted = match[0].split('\n')
   text = " ".join(splitted[1:-1]).strip()

@@ -2,6 +2,18 @@
 
 The program is able to convert syllabus from Latex to JSON format. 
 
+To make it work you should follow the next steps:
+
+1) Create a directory `Courses` inside the directory with `main.py` and `parser.py` and upload there all the syllabi in `.tex` format. 
+
+2) Run `main.py`
+
+3) After successful run there are two new directories: `GeneratedFiles` and `Instructions`.
+
+ `GeneratedFiles` contains all the sullabi parsed to JSON format descrived below.
+
+`Instructions` contains overall report and a list of files that could have some mistakes when parsing. These files require additional manual check. If you look into each you may find instructions that help to oriente.
+
 ## JSON structure
 
 ### Background
